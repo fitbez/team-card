@@ -26,10 +26,12 @@ body {
 }
 
 .card .image {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   background-color: #cddc39;
   margin: 40px;
+  border-radius: 50%;
+  border: 3px solid #cddc39;
 }
 
 .card .social {
@@ -37,4 +39,15 @@ body {
   height: 200px;
   background-color: #cddc39;
   margin: 40px;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.card p {
+  margin-top: 5px;
+  padding: 0;
+  text-align: center;
 }
