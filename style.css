@@ -34,13 +34,6 @@ body {
   border: 3px solid #cddc39;
 }
 
-.card .social {
-  width: 250px;
-  height: 200px;
-  background-color: #cddc39;
-  margin: 40px;
-}
-
 .card h3 {
   margin: 0;
   padding: 0;
@@ -50,4 +43,17 @@ body {
   margin-top: 5px;
   padding: 0;
   text-align: center;
+}
+
+.card .social {
+  width: 250px;
+  height: 200px;
+  color: #cddc39;
+  margin: 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
 }
