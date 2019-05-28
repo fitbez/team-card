@@ -19,4 +19,22 @@ body {
   background-color: #ffffff;
   border-radius: 10px;
   margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .image {
+  width: 150px;
+  height: 150px;
+  background-color: #cddc39;
+  margin: 40px;
+}
+
+.card .social {
+  width: 250px;
+  height: 200px;
+  background-color: #cddc39;
+  margin: 40px;
 }
