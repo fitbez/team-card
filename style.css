@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   background-color: #f4f4f4;
+  user-select: none;
 }
 
 #team {
@@ -35,12 +36,18 @@ body {
   border: 3px solid #cddc39;
 }
 
-.card h3 {
-  margin: 0;
-  padding: 0;
+.card .info {
+  border-bottom: 1.5px solid #f4f4f4;
+  margin: 0 15px 0 15px;
 }
 
-.card p {
+.card .info h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card .info p {
   margin-top: 5px;
   padding: 0;
   text-align: center;
@@ -58,10 +65,16 @@ body {
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  /* transition: 2s; */
 }
 
 .card .social li:hover {
-  transition: 2s;
+  transition: 1.5s;
   color: #000;
 }
+
+/* On screens that are 600px or less, set the background color to blue */
+/* @media screen and (max-width: 600px) {
+  #team {
+    flex: 1;
+  }
+} */
